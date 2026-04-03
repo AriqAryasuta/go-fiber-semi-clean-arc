@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"backend-boiler/internal/app"
-	"backend-boiler/internal/platform/config"
+	"backend-boiler/internal/infra/config"
 )
 
 func main() {

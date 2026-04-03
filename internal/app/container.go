@@ -4,11 +4,11 @@ import (
 	"context"
 	"log/slog"
 
-	"backend-boiler/internal/platform/broker"
-	"backend-boiler/internal/platform/cache"
-	"backend-boiler/internal/platform/config"
-	"backend-boiler/internal/platform/database"
-	"backend-boiler/internal/platform/logger"
+	"backend-boiler/internal/infra/broker"
+	"backend-boiler/internal/infra/cache"
+	"backend-boiler/internal/infra/config"
+	"backend-boiler/internal/infra/database"
+	"backend-boiler/internal/infra/logger"
 	sharedValidator "backend-boiler/internal/shared/validator"
 
 	"github.com/rabbitmq/amqp091-go"

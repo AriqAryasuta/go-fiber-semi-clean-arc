@@ -5,7 +5,8 @@ import (
 
 	"backend-boiler/internal/http/middleware"
 	"backend-boiler/internal/http/routes"
-	"backend-boiler/internal/platform/broker"
+	"backend-boiler/internal/infra/broker"
+
 	"github.com/gofiber/fiber/v3"
 	"github.com/rabbitmq/amqp091-go"
 )
